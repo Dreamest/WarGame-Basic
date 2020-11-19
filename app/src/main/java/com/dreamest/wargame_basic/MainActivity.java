@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(counter == player1Deck.size()) {
                     changeActivity();
-                }
-                turn();
+                } else //turn() plays anyway even if the activity finishes without the 'else'
+                    turn();
             }
         });
     }
