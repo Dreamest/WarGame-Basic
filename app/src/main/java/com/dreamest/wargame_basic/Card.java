@@ -6,6 +6,8 @@ public class Card implements Comparable<Card>{
     private String drawableName;
     private final int VALUE_OFFSET = -2;
 
+    public Card(){};
+
     public Card(int value, String suit) {
         this.value = value;
         this.suit = suit;
