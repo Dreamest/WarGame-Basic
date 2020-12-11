@@ -3,6 +3,7 @@
 A card war game android application - Basic version
 
 ![Game Screen](https://i.ibb.co/2P3vHY4/Whats-App-Image-2020-11-14-at-21-38-26.jpg)
+
 Upon starting the application, a deck of cards will be created, shuffled and split into two halves, one for each player.
 Pressing the Play button will deal the next card in each deck. 
 The player with the higher score will gain a point, if tied - no one gets a point.
